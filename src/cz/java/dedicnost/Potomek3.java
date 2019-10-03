@@ -7,3 +7,4 @@ public class Potomek3 extends Predek {
     }
 
 }
+

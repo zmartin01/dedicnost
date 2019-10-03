@@ -14,4 +14,5 @@ public class HlavniTrida {
         System.out.println("Konec");
     }
 
+
 }
