@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="188.0" y="171.0">cz.java.dedicnost.AggregationTrida</node>
+    <node x="58.0" y="0.0">cz.java.dedicnost.Predek</node>
+    <node x="0.0" y="171.0">cz.java.dedicnost.HlavniTrida</node>
+    <node x="0.0" y="100.0">cz.java.dedicnost.Potomek3</node>
+    <node x="246.0" y="100.0">cz.java.dedicnost.Potomek1</node>
+    <node x="123.0" y="100.0">cz.java.dedicnost.Potomek2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cz.java.dedicnost.Potomek1" target="cz.java.dedicnost.Predek">
+      <point x="0.0" y="-13.0" />
+      <point x="297.5" y="75.0" />
+      <point x="252.16666666666669" y="75.0" />
+      <point x="77.66666666666669" y="25.0" />
+    </edge>
+    <edge source="cz.java.dedicnost.Potomek2" target="cz.java.dedicnost.Predek">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="cz.java.dedicnost.Potomek3" target="cz.java.dedicnost.Predek">
+      <point x="0.0" y="-13.0" />
+      <point x="51.5" y="75.0" />
+      <point x="96.83333333333333" y="75.0" />
+      <point x="-77.66666666666667" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="223.99999999999997" y="48.999999999999986" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
