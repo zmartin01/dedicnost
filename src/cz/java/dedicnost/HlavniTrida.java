@@ -3,15 +3,21 @@ package cz.java.dedicnost;
 public class HlavniTrida {
 
     public static void main(String args[]){
-        System.out.println("Zacatek");
-        Predek predek;
 
-        predek = new Predek();
-        predek = new Potomek1();
-        predek = new Potomek2();
-        predek = new Potomek3();
+        Predek predek = new Predek(999);
+        Potomek1 potomek1 = new Potomek1(1);
+        Potomek2 potomek2 = new Potomek2(2);
+        Potomek3 potomek3 = new Potomek3(3);
 
-        System.out.println("Konec");
+        System.out.println("===== Vypisy =====");
+        System.out.println("potomek1.getCisloPotomek1: " + potomek1.getCisloPotomek1() + ", potomek1.getCisloPredek: " + potomek1.getCisloPredek());
+
+        // predek neobsahuje fieldy z potomka
+        // field predka je naplnen z potomka
+        predek = potomek2;
+        System.out.println("predek = potomek2");
+        System.out.println("predek.getCisloPredek: " + predek.getCisloPredek());
+
     }
 
 
