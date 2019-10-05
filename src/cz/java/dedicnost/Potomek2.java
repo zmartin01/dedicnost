@@ -1,7 +1,7 @@
 package cz.java.dedicnost;
 
 public class Potomek2 extends Predek {
-    private int cisloPotomek2;
+    protected int cisloPotomek2;
 
     public int getCisloPotomek2() {
         return cisloPotomek2;

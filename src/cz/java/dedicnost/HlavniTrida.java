@@ -12,11 +12,11 @@ public class HlavniTrida {
         System.out.println("===== Vypisy =====");
         System.out.println("potomek1.getCisloPotomek1: " + potomek1.getCisloPotomek1() + ", potomek1.getCisloPredek: " + potomek1.getCisloPredek());
 
-        // predek neobsahuje fieldy z potomka
-        // field predka je naplnen z potomka
-        predek = potomek2;
+        
         System.out.println("predek = potomek2");
+        predek = new Potomek2();
         System.out.println("predek.getCisloPredek: " + predek.getCisloPredek());
+        System.out.println("predek.getCisloPotomek2: " + ((Potomek2) predek).cisloPotomek2);
 
     }
 
