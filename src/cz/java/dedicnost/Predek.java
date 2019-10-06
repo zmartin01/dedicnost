@@ -2,7 +2,7 @@ package cz.java.dedicnost;
 
 public class Predek {
 
-    private int cisloPredek;
+    protected int cisloPredek;
     public AggregationTrida aggregationTrida;
 
     public int getCisloPredek() {
