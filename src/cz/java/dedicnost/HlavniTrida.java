@@ -18,6 +18,8 @@ public class HlavniTrida {
         System.out.println(pokusnyPredek.getCisloPredek());
         System.out.println(((Potomek2) pokusnyPredek).cisloPotomek2);
 
+        Predek p = Predek.createPredek();
+
     }
 
 

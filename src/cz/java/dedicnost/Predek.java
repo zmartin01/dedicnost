@@ -18,6 +18,11 @@ public class Predek {
         System.out.println("Konstruktor tridy Predek");
     }
 
+    public static Predek createPredek(){
+        System.out.println("static factory method createPredek");
+        return new Predek();
+    }
+
     public Predek(){
         System.out.println("Konstruktor tridy Predek");
     }
